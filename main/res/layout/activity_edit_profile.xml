@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context="com.mabapps.speak.activity.EditProfile">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update Name"
+        android:layout_below="@+id/editName"
+        android:id="@+id/updateName"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtStatus"
+        android:padding="10dp"
+        android:layout_below="@+id/updateName"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtStatus"
+        android:text="Update Status"
+        android:id="@+id/updateStatus"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAddress"
+        android:layout_below="@+id/updateStatus"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateAddress"
+        android:layout_below="@+id/edtAddress"
+        android:text="Update Address"/>
+
+    <Button
+        android:id="@+id/goProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textStyle="bold"
+        android:text="Go to Profile"
+        android:onClick="goProfile"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id_banner"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

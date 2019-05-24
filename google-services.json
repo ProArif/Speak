@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "938266155634",
+    "firebase_url": "https://speak-270f4.firebaseio.com",
+    "project_id": "speak-270f4",
+    "storage_bucket": "speak-270f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938266155634:android:3f48b65a1e25aab5",
+        "android_client_info": {
+          "package_name": "com.mabapps.speak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938266155634-qt207ifg8p8mhq67qoob4vbtgauusggv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mabapps.speak",
+            "certificate_hash": "a2130f5846041fccf87d8d6ea172bb01f77b0809"
+          }
+        },
+        {
+          "client_id": "938266155634-nc54ht29ked0t9o80df2t3prr01ck2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnfC6fbBTSQaCkOqhx0sQol6VdTJ15xjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938266155634-nc54ht29ked0t9o80df2t3prr01ck2va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

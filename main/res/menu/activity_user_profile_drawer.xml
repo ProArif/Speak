@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/recent"
+            android:icon="@drawable/history"
+            android:title="Recent" />
+        <item
+            android:id="@+id/editProfile"
+            android:icon="@drawable/edit"
+            android:title="Edit Your Profile" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/activity"
+            android:title="Go to Activity"
+            android:icon="@drawable/activity"
+
+            />
+
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/exit"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

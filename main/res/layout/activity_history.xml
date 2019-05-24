@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.mabapps.speak.activity.HistoryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="6dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can see your history by clicking the button below.You are able to see your all translation queries."
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Check History"
+         android:id="@+id/checkHistory"
+         android:textStyle="bold"
+         android:background="@color/colorAccent"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Your History will appear here"
+          android:textSize="20sp"
+          android:id="@+id/show"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id_banner"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
